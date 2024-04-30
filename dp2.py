@@ -64,6 +64,7 @@ def dp2():
       except Exception as e:
           print(e, "error when loading", f)
         
+  print("Import Count:")
   print("Records imported:", imported_records)
   print("Records orphaned:", orphaned_records)
   print("Records corrupted:", corrupted_records)
